@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    }
+    .title{
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    .slideshow{
+    /* padding-left: 280px; */
+    /* display: flex;
+    justify-content: center;
+    max-width: 100%; */
+    max-height: 550px;
+    }
+    .nav{
+    background: rgb(247, 247, 247);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    position: relative;
+    }
+    .nav-item{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(240, 15, 15);
+    }
+    .nav-item:hover{
+    background: rgb(211, 64, 64);
+    color: white;
+    }
+    .menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 20% ;
+    padding-right: 10%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    border: 1cm;
+    border-color: red;
+    border-radius: 12%;
+    }
+    .menu1 a{
+    text-decoration: none;
+    }
+    .content{
+    margin: 0 60px;
+    /* columns: 2; */
+    display: flex;
+    }
+    .menu1{
+    background-color: rgb(240, 105, 21);
+    /* display: inline-block; */
+    width: 300px;
+    }
+    .menu1 a{
+    color: white;
+    } 
+    .menu-item:hover{
+    background-color: rgb(240, 105, 21);
+    color: wheat;
+    padding-right: 20%;
+    }
+    .slideshow img{
+    /* padding-top: 80px; */
+    /* display: flex; */
+    justify-content: center;
+    width: 1000px;
+    height: 550px;
+    }
+    .slideshow .img1{
+        height: 300px;
+        width: 200px;
+    }
+    .product{
+        display: inline;
+    }
+    .mn1:hover{
+    color: aliceblue;
+    background-color: rgb(255, 0, 81);
+    }
+    .mn1{
+        display:flex;
+        color: red;
+        background-color: beige;
+        border: 41%;
+        text-decoration: none;
+        padding: 12px 12px;
+        text-align: center;
+        
+    }
+    .ctn1 h3{
+        text-align:center;  
+        color:tomato;
+        padding-right:80%;
+    }
+
+    .ctn1 h4{
+        text-align:center;  
+        padding-right:80%;
+    }
+    .ctn1 h6{
+        text-align:center;  
+        padding-right:80%;
+        padding-bottom: 30px;
+        color:grey;
+
+    }
+
+    .ctn2 h3{
+        text-align:center;  
+        color:tomato;
+        padding: left 80px;;
+    }
+
+    .ctn2 h4{
+        text-align:center;  
+        padding-right:80%;
+    }
+    .ctn2 h6{
+        text-align:center;  
+        padding-left: 12%;
+        padding-bottom: 30px;
+        color: grey;
+
+    }
+    .ctn2{
+        padding-bottom: 100px;
+        padding-left: 600px;
+
+    }
+    
+    footer{
+        background-color: black;
+    }
+    .title h1{
+        color: rgb(224, 167, 61)
+    }
